@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "datetime": "July 01, 2021 11:17:35 AM",
+      "body": "Hey this is my first post. Thank You"
+    },
+    {
+      "id": 2,
+      "title": "My Second Post",
+      "datetime": "July 01, 2021 11:17:35 AM",
+      "body": "Hey this is my second post. Thank You"
+    },
+    {
+      "id": 3,
+      "title": "My Third Post",
+      "datetime": "July 01, 2021 11:17:35 AM",
+      "body": "Hey this is my third post. Thank You"
+    },
+    {
+      "id": 4,
+      "title": "My Fourth Poste,jewb",
+      "datetime": "March 12, 2023 9:39:51 PM",
+      "body": "Hey this is my fourth post. Thank You"
+    },
+    {
+      "id": 5,
+      "title": "ewfwenf,mwf e",
+      "datetime": "March 12, 2023 9:39:35 PM",
+      "body": "fourth ofhsdc;ndlkcn"
+    },
+    {
+      "id": 6,
+      "title": "ewlkdfeowid",
+      "datetime": "March 12, 2023 9:47:18 PM",
+      "body": "ewklfnewl"
+    }
+  ]
+}
