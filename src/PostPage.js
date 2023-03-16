@@ -1,9 +1,26 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useHistory } from "react-router-dom";
+import { useContext } from "react";
+import DataContext from "./context/DataContext";
+import api from './api/posts';
 
-const PostPage = ({ posts, handleDelete }) => {
+const PostPage = () => {
 
+    const history = useHistory();
+    const { posts, setPosts } = useContext(DataContext);
     const { id } = useParams();
     const post = posts.find(post => (post.id).toString() === id);
+
+    const handleDelete = async (id) => {
+
+      try{
+          await api.delete("/posts/"+id);
+          const postList = posts.filter(post => post.id.toString() !== id);
+          setPosts(postList);
+          history.push('/');
+      } catch(err) {
+          console.log("Error : "+err.message);
+      }
+    }
 
     return (
       <main className="PostPage">
